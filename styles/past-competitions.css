@@ -1,0 +1,91 @@
+.header{
+    position:fixed;
+    background-color: beige;
+    left:0;
+    right:0;
+    top:0;
+    height:100px;
+    display:flex;
+    gap:100px;
+}
+.subhead{
+    background-color:lightblue;
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    position:relative;
+}
+.bottombar{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: lightblue;
+    height:50px;
+    display: flex;
+    align-items: center;
+}
+.Home-image{
+    height:40px;
+}
+.subhead div{
+    font-size:25px;
+}
+.bon{
+    position:absolute;
+    top:0px;
+    right:0px;
+    left:0px;
+    bottom:0px;
+    opacity:0;
+}
+.frontpage{
+    width:1000px;
+    align-items:center;
+    font-size:20px;
+    line-height:40px;
+}
+.pcomp-item{
+    margin-bottom:20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 150px;
+}
+.pcomp-box{
+    display: grid;
+    background-color: lightgrey;
+    grid-template-rows: 1fr 1fr;
+}
+.pcomp-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.pcomp-item-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%
+}
+.pcomp-item-date{
+    text-align: center;
+    font-size:125%
+}
+.pcomp-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.pcomp-bottom-one{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.pcomp-item-bracket,
+.pcomp-item-questions{
+    width: 50%;
+    height: 75%;
+    font-size:125%;
+}

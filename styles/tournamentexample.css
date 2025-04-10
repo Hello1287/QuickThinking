@@ -1,0 +1,167 @@
+.tournament-header-grid{
+    display:grid;
+    grid-template-columns: 2fr 1fr 8fr 2fr;
+    grid-template-rows: 150px;
+    column-gap: 20px;
+    height:150px;
+}
+.tournament-image-grid{
+}
+.tournament-image{
+    height:100%;
+    aspect-ratio: 1;
+}
+.tournament-title-grid{
+    display:grid;
+    grid-template-rows:4fr 5fr 2fr 2fr; 
+}
+.tournament-title{
+    font-size:30px;
+    font-weight:bold;
+}
+.tournament-main{
+    margin-top:50px;
+    display:grid;
+    grid-template-columns: 4fr 16fr 7fr 1fr;
+    column-gap:20px;
+}
+.four-tournament-bracket{
+    display:grid;
+    grid-template-columns: 5fr 2fr 5fr 2fr 5fr 6fr; 
+    height:400px;
+}
+.tournament-match-box{
+    display:grid;
+    border-width: 3px 3px 3px 3px;
+    border-style:solid;
+    border-color:black;
+    justify-items: space-between;
+    grid-template-rows: 1fr 1fr;
+    height:53px;
+}
+.tournament-player-box{
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: grey;
+    padding-left:3px;
+}
+.tournament-match-winner{
+    background-color: rgb(206, 233, 211);
+}
+.tournament-round-title{
+    font-weight:bold;
+}
+.four-tournament-left{
+    display:grid;
+    grid-template-rows: 2fr 1fr;
+}
+.four-tournament-upper-semis{
+    display: grid;
+    grid-template-rows:3fr 3fr 3fr 3fr 3fr;
+}
+.four-tournament-lower-one{
+    display:grid;
+    grid-template-rows:2fr 3fr;
+}
+.four-tournament-center{
+    display:grid;
+    grid-template-rows: 3fr 2fr;
+}
+.four-tournament-upper-finals{
+    display: grid;
+    vertical-align: center;
+}
+.four-tournament-lower-finals{
+    display: grid;
+    grid-template-rows: 2fr 5fr;
+}
+.four-tournament-right{
+    display:grid;
+    grid-template-rows: 3fr 2fr;
+}
+.four-tournament-grand-finals{
+    display: grid;
+    vertical-align:center;
+}
+/*.tournament-leaderboard{
+    display: grid;
+    row-gap: 20px;
+    justify-content: top;
+    grid-template-rows: 20px;
+    grid-tem
+}
+*/
+.tournament-leaderboard-title{
+    height:20px;
+    margin-bottom:15px;
+}
+.tournament-leaderboard-item{
+    border:solid;
+    border-color: grey;
+    margin-bottom:5px;
+    align-items: center;
+    height: auto;
+    display: grid;
+    grid-template-columns: 2fr 3fr 4fr
+}
+.tournament-leaderboard-item-prize{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tournament-leaderboard-item-place{
+    padding-left:10px;
+}
+.eight-tournament-bracket{
+    display:grid;
+    grid-template-columns: 10fr 4fr 10fr 4fr 10fr 4fr 11fr 1fr; 
+    height:600px;
+}
+.eight-tournament-left{
+    display:grid;
+    grid-template-rows: 5fr 3fr;
+    row-gap: 20px;
+}
+.eight-tournament-upper-quarters{
+    display: grid;
+    grid-template-rows: 2fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr;
+}
+.eight-tournament-lower-one{
+    display: grid;
+    grid-template-rows: 2fr 4fr 1fr 4fr;
+}
+.eight-tournament-midwest{
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+}
+.eight-tournament-upper-semis{
+    display: grid;
+    grid-template-rows: 7fr 6fr 17fr 12fr 18fr;
+}
+.eight-tournament-lower-two{
+    display: grid;
+    grid-template-rows: 31fr 60fr 15fr 70fr;
+}
+.eight-tournament-mideast{
+    display: grid;
+    grid-template-rows: 5fr 3fr;
+}
+.eight-tournament-upper-finals{
+    display: grid;
+    grid-template-rows: 21fr 7fr 34fr;
+}
+.eight-tournament-lower-three{
+    display: grid;
+    grid-template-rows: 19fr 33fr;
+}
+.eight-tournament-right{
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+}
+.eight-tournament-grand-finals{
+    display: grid;
+    grid-template-rows: 13fr 4fr 19fr;
+}
+.eight-tournament-lower-finals{
+    display: grid;
+    grid-template-rows: 2fr 9fr;
+}

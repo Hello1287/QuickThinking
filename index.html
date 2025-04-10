@@ -2,7 +2,8 @@
 <html>
     <head>
         <title>QuickThinking Math</title>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/index.css">
         <link rel="stylesheet" href="fonts.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,18 +46,18 @@
                     Quick Thinking Math Competition is a buzzer-style competition that requires students to answer problems as fast as possible.
                 </div>
                 <div class="frontpage"> 
-                    This reflects the style of competition found in contests like MathCounts, Mathleague, and more!
+                    This reflects the style of competition found in many prestigious elementary and middle school math competitions!
                 </div>
                 <div class="frontpage">
-                    All competitions are double-elimination tournament style. Most matches are BO5. The championship matches are BO7. The tournaments will usually take less than 30 minutes.
+                    All competitions are double-elimination tournament style. Most matches are Best of 5. The championship matches are Best of 7. Tournaments usually take less than 30 minutes.
                 </div>
-                <div class="frontpage">(If you do not know what double-elimination tournament style is, click Rules/FAQ to find out)
+                <div class="frontpage">(If you do not know what double-elimination tournament style is, click <a href="rules.html" style="color: black;">Rules/FAQ</a> to find out)
                 </div>
                 <div class="frontpage">
                     Competitions will be held weekly, with problems that are both challenging and solvable.
                 </div>
                 <div class="frontpage" style="font-weight:bold">
-                    IMPORTANT: At the moment, Quick Thinking is available for students in 2nd to 6th grade.
+                    IMPORTANT: At the moment, Quick Thinking is available for students in 1st to 6th grade.
                 </div>
                 
             </div>
@@ -72,7 +73,7 @@
                             18
                         </div>
                     </div>
-                    <div style="position:relative">
+                    <div style="position: relative">
                         <div class="eventname">Weekly Competition</div>
                         <div class="eventtime">3:00PT/6:00ET</div>
                         <div class="eventdetails">Sign up now for our weekly math competition!</div>
@@ -85,8 +86,15 @@
             </div>
         </main>
         <div class="bottombar">
-            <div>Comments, Questions, or Concerns? Contact Us!</div> 
+            <div style="margin-left:20px">Comments, Questions, or Concerns? Contact Us!</div> 
             <div style="margin-left:150px;">Email: samspark116@gmail.com</div>
+            <div style="margin-left:300px">About</div>
         </div>
+        <script src="scripts/header.js"></script>
+        <script src="https://unpkg.com/dayjs@1.11.10/dayjs.min.js"></script>
+        <script>
+            console.log(dayjs())
+        </script>
+        <script src="scripts/index.js" type="module"></script>
     </body>
 </html>
