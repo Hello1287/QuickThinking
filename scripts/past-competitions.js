@@ -14,7 +14,7 @@ contests.forEach((contest) =>{
                 </div>
                 <div class="pcomp-bottom">
                     <div><a href="get-result.html?id=${contest.id}"><button class="pcomp-item-bracket">Bracket</button></a></div>
-                    <div><a href="https://www.google.com"><button class="pcomp-item-questions">Questions</button></a></div> 
+                    <div><a href="${contest.questionsLink}" target="_blank"><button class="pcomp-item-questions">Questions</button></a></div> 
                 </div>
             </div>
             <div></div>

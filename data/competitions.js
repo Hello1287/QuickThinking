@@ -81,7 +81,8 @@ export let contests = [
         completed: 1,
         winner: null,
         eventDetails: "Sign up now for our weekly math competition!",
-        formLink: null
+        formLink: null,
+        questionsLink: "https://docs.google.com/document/d/1KbUPhmI9jCQ3na7pVH3I_T08CYsQzlwQtSjLcni6v_E/edit?tab=t.0"
    },
    /*
    {
@@ -308,7 +309,7 @@ export let contestbrackets = [
     },
     {
         id: -6,
-        type: 8,
+        type: -8,
         prizeId: -8,
         names: ["Peter P", "Sangwoo H", "Fredrick N", "Nathaniel G", "Trina L", "Edward G", "Mandy C", "Charlotte W", ""],
         gameOne: {
