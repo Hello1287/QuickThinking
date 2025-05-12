@@ -109,7 +109,7 @@ export let contests = [
         name: "Weekly Competition #1",
         caption: "Standard Tournament",
         image: null,
-        dayjs: dayjs('2025-5-31 16:45:00'),
+        dayjs: dayjs('2025-5-25 15:00:00'),
         completed: 0,
         winner: null,
         eventDetails: "Sign up now for our weekly math competition!",
